@@ -233,8 +233,19 @@ pip install -r requirements.txt
 Create `.env` file:
 
 ```env
+APP_NAME=SanskritRAG
+DATA_FOLDER=./app/data
+FAISS_INDEX_PATH=./app/faiss_index
+EMBEDDING_MODEL=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+CHUNK_SIZE=1200
+CHUNK_OVERLAP=150
+TOP_K_RESULTS=3
+LOG_LEVEL=INFO
 OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-4o-mini
+OPENAI_MAX_TOKENS=1024
+OPENAI_TEMPERATURE=0.3
+
 ```
 
 ---
