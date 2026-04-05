@@ -256,7 +256,7 @@ OPENAI_TEMPERATURE=0.3
 uvicorn app.main:app --reload
 ```
 
-👉 Server start hoga:
+👉 Server start:
 
 ```
 http://127.0.0.1:8000
