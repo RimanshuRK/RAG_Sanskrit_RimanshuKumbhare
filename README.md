@@ -8,7 +8,7 @@ This project implements a **Retrieval-Augmented Generation (RAG) system** for Sa
 
 The system:
 
-* Accepts hindi, English and Sanskrit queries
+* Accepts Hindi, English and Sanskrit queries
 * Retrieves relevant content from documents
 * Generates meaningful answers using an LLM
 
